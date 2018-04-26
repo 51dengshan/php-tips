@@ -6,7 +6,6 @@
  * Time: 下午5:21
  */
 
-
 class MiddleMemberPrice implements MemberPrice
 {
     public function calPrice($price)
