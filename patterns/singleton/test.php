@@ -12,8 +12,6 @@ function autoload($class)
     include_once (dirname($_SERVER['SCRIPT_FILENAME']).'/'.$class.'.php');
 }
 
-
-
 $singletonOne = Singleton::getInstance();
 $singletonTwo = Singleton::getInstance();
 
